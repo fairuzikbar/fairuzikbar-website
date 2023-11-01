@@ -26,8 +26,8 @@ export function Hero() {
             <FontAwesomeIcon icon={faEnvelope} className='fa-xl mx-1' />
             <div className='border-2 my-3 rounded-lg'>
             <p className="p-5 text-justify max-w-xl font-normal text-gray-500 dark:text-gray-400">
-            👋 Hi, I'm @fairuzikbar<br/><br/>
-    I'm interested in Backend and Frontend Development | I'm currently working as Software Engineer | I'm interested on programming, design, and photography</p>
+            👋 Hi, I&apos;m @fairuzikbar<br/><br/>
+    I&apos;m interested in Backend and Frontend Development | I&apos;m currently working as Software Engineer | I&apos;m interested on programming, design, and photography</p>
             </div>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                 <Link href="/about" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
