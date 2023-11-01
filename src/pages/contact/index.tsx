@@ -1,9 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import {useState} from 'react';
-
 export function Contact() {
-
   return (
     <section className="flex flex-col bg-white dark:bg-gray-900 h-screen">
       <div className='border-2 my-3 rounded-lg'>
