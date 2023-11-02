@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Navbar } from '@/components/Navbar'
 import { Footer } from "@/components/Footer";
-import { AboutDesc } from "@/components/About";
+import { AboutHero } from "@/components/AboutHero";
 
 export default function Portofolio() {
   return (
@@ -12,9 +12,11 @@ export default function Portofolio() {
       <meta property="og:title" content="fii maarif personal website"/>
       <meta property="og:description" content="I am fii maarif a frontend developer, I have experience in creating and developing responsive and intuitive UI."/>
       </Head>
-      <Navbar />
-      <AboutDesc />
-      <Footer />
+      <div>
+        <Navbar />
+        <AboutHero />
+        <Footer />
+      </div>
     </>
   );
 }
