@@ -1,8 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faYoutube, faBehance, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function PortofolioContent() {
   return (
@@ -11,6 +7,31 @@ export function PortofolioContent() {
         <div className="flex flex-col hero-content">
               {/* ---------------- Work Experience ---------------- */}
               <h1 className="font-bold text-3xl mt-8">Portofolio</h1>
+              <div className="divider m-0"></div>
+              <div className="flex lg:flex-row md:flex-row flex-col max-w-xl w-full">
+                  <div className="grid grid-cols-1 w-full">
+                      <div className="card bg-base-100 lg:mr-1 md:mr-1 mt-1 dark:bg-gray-900">
+                          <div className="card-body">
+                              <p>31 October 2023 - Present</p>
+                              <h2 className="card-title">Personal Website V2</h2>
+                              <h3>-</h3>
+                              <div>
+                                <div className="badge badge-outline">NextJs</div>
+                                <div className="badge badge-outline">Tailwind CSS</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="lg:divider lg:divider-horizontal"></div>
+                  <div className="grid grid-cols-1 w-full">
+                      <div className="card bg-base-100 lg:mx-1 md:mx-1 mt-1 dark:bg-gray-900">
+                          <div className="card-body">
+                              <h2 className="card-title">Description</h2>
+                              <p>Create my personal website using NextJs and Tailwind CSS. Published on this site</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
               <div className="divider m-0"></div>
               <div className="flex lg:flex-row md:flex-row flex-col max-w-xl w-full">
                   <div className="grid grid-cols-1 w-full">

@@ -1,8 +1,4 @@
-import Link from "next/link";
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faYoutube, faBehance, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function AboutContent() {
   return (
@@ -41,10 +37,10 @@ export function AboutContent() {
                               <h2 className="card-title">Basic</h2>
                               <ul className="list-none">
                                   <li>Google Cloud</li>
-                                  <li>Dart</li>
+                                  <li>ReactJs</li>
                                   <li>C#</li>
-                                  <li>Java</li>
                                   <li>VueJs</li>
+                                  <li>NextJs</li>
                                   <li>Airflow</li>
                               </ul>
                           </div>

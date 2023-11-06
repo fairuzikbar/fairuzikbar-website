@@ -7,10 +7,10 @@ export default function Portofolio() {
   return (
     <>
       <Head>
-      <title>fairuzikbar | portofolio</title>
-      <meta name="description" content="I am fii maarif a frontend developer, I have experience in creating and developing responsive and intuitive UI." />
-      <meta property="og:title" content="fii maarif personal website"/>
-      <meta property="og:description" content="I am fii maarif a frontend developer, I have experience in creating and developing responsive and intuitive UI."/>
+        <title>fairuzikbar | portofolio</title>
+        <meta name="description" content="I am Fairuz Ikbar. I am interested in Backend and Frontend Development | I am currently working as Software Engineer | I am interested on programming, design, and photography. I have experience in Bigdata Engineer." />
+        <meta property="og:title" content="Fairuz Ikbar Personal Website"/>
+        <meta property="og:description" content="I am Fairuz Ikbar. I am interested in Backend and Frontend Development | I am currently working as Software Engineer | I am interested on programming, design, and photography. I have experience in Bigdata Engineer."/>
       </Head>
       <div>
         <Navbar />

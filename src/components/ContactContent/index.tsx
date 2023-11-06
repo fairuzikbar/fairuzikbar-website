@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedin, faYoutube, faBehance, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapLocationDot } from '@fortawesome/free-solid-svg-icons';
